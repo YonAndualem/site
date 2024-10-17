@@ -7,7 +7,7 @@
 
     /*========== Colors ==========*/
     /* Change favorite color */
-    --hue-color: 250; /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
+    --hue-color: 230; /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
 
     /* HSL color mode */
     --first-color: hsl(var(--hue-color), 69%, 61%);
@@ -301,7 +301,9 @@ img {
 }
 
 .home__blob-img{
-  width: 170px;
+    width: 100%; /* or any specific size */
+    height: 280px; /* example height */
+    object-fit: contain; /* can also use 'contain' */
 }
 
 .home__data{
@@ -508,14 +510,14 @@ img {
 }
 
 .skills__html{
-  width: 90%;
+  width: 100%;
 }
 
 .skills__css{
-  width: 80%;
+  width: 90%;
 }
 .skills__js{
-  width: 60%;
+  width: 80%;
 }
 .skills__react{
   width: 85%;
